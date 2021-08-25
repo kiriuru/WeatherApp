@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tomorrow_weather_string">Tomorrow</string>
+    <string name="weekly_weather_string">10 Day</string>
+</resources>

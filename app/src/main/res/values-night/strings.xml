@@ -2,4 +2,12 @@
 <resources>
     <string name="tomorrow_weather_string">Tomorrow</string>
     <string name="weekly_weather_string">10 Day</string>
+    <string name="city_name">Moscow</string>
+    <string name="city_temperature_text">Temperature</string>
+    <string name="city_description">Description</string>
+    <string name="city_pressure">Pressure</string>
+    <string name="city_humidity">Humidity</string>
+    <string name="city_temp_max">T. Max</string>
+    <string name="city_temp_min">T. Min</string>
+    <string name="city_wind">Wind</string>
 </resources>

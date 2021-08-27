@@ -17,8 +17,4 @@ data class WeatherData(
     @SerializedName("weather") val weather: List<WeatherItem>,
     @SerializedName("coord") val coord: Coord
 ) {
-    fun getTemp(): String {
-        val tempC = (main.temp - 273.15) + 0.01
-        return DecimalFormat("#0.00").format(tempC)
-    }
 }

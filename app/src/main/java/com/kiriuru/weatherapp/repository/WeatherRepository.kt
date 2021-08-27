@@ -1,4 +1,7 @@
 package com.kiriuru.weatherapp.repository
 
-class WeatherRepository {
+import com.kiriuru.weatherapp.network.WeatherApi
+
+class WeatherRepository(private val api: WeatherApi) {
+suspend fun getCurrentWeather(city:String) = api.getWeatherCity(cityName = city)
 }

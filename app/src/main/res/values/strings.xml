@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">WeatherApp</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="today_weather_string">Today</string>
+    <string name="tomorrow_weather_string">Tomorrow</string>
+    <string name="weekly_weather_string">10 Day</string>
 </resources>
